@@ -1,0 +1,9 @@
+{
+  "extends": "@alipay/bigfish/eslint",
+  "rules":{
+    "react/no-multi-comp": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-array-index-key": 0,
+    "react/no-unused-state": 0
+  }  
+}

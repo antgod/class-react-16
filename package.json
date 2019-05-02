@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "umitest1",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bigfish dev",
+    "dev": "bigfish dev",
+    "analyze": "bigfish dev --analyze",
+    "devs": "bigfish dev --no-mock",
+    "test": "bigfish test",
+    "cov": "bigfish cov",
+    "build": "bigfish build",
+    "pack": "bigfish pack",
+    "lint": "bigfish lint --style",
+    "precommit": "bigfish lint --staged --prettier --style --fix",
+    "help": "bigfish help",
+    "version": "bigfish -v",
+    "ci": "bigfish lint && bigfish cov"
+  },
+  "dependencies": {
+    "@alipay/bigfish": "^2.6.0",
+    "ant-util": "^2.0.1"
+  },
+  "engines": {
+    "install-alinode": "4"
+  },
+  "ci": {
+    "version": "alinode=4"
+  },
+  "config": {
+    "assets": {
+      "hash": true
+    }
+  }
+}
