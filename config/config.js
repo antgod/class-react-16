@@ -35,6 +35,7 @@ export default {
       component: '../layout',
       indexRoute: { component: 'IndexPage' },
       routes: [
+        { path: 'renderProps', component: 'RenderProps' },
         { path: 'render', component: 'Render' },
         { path: 'ref', component: 'Ref' },
         { path: 'context', component: 'Context' },
